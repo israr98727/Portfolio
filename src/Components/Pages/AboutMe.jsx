@@ -31,7 +31,7 @@ function AboutMe() {
             />
           </div>
           <h2 className="text-3xl font-bold text-teal-400 mb-2">Israr Ahmed</h2>
-          <p className="text-gray-300 mb-4">Full Stack Web Developer</p>
+          <p className="text-gray-300 mb-4">React JS Developer</p>
           <p className="text-sm text-gray-400 leading-relaxed">
             Passionate about building robust and user-centric applications. I thrive on challenges and am dedicated to continuous learning.
           </p>
@@ -44,7 +44,7 @@ function AboutMe() {
           <div className="flex flex-col space-y-4 text-left">
             <h3 className="text-teal-400 text-2xl font-semibold border-b-4 border-teal-400 pb-2">About Me</h3>
             <p className="text-gray-300 leading-relaxed">
-              I specialize in <span className="text-teal-400 font-semibold">React, JavaScript, and backend technologies</span>, creating clean and efficient code that brings user experiences to life. Outside of coding, I love exploring new trends and taking on creative side projects.
+              I specialize in <span className="text-teal-400 font-semibold">React, JavaScript technologies</span>, creating clean and efficient code that brings user experiences to life. Outside of coding, I love exploring new trends and taking on creative side projects.
             </p>
           </div>
 

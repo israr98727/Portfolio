@@ -105,7 +105,7 @@ function Projects() {
                 <SiTailwindcss className="text-blue-400 text-xl" />
               </div>
               {/* Visit Website Button */}
-              <a href="https://portfolio-website-omega-olive.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-block mt-4 px-4 py-2 bg-teal-400 text-gray-900 font-semibold rounded hover:bg-teal-500 transition-colors duration-200">
+              <a href="https://portfolio-isrars-projects-1b030f4c.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-block mt-4 px-4 py-2 bg-teal-400 text-gray-900 font-semibold rounded hover:bg-teal-500 transition-colors duration-200">
                 Visit Website
               </a>
             </div>
