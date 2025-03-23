@@ -15,15 +15,8 @@ function AboutMe() {
           {/* Fiery Animation */}
           <div
             className="relative mx-auto rounded-full"
-            style={{
-              padding: '8px',
-              borderRadius: '50%',
-              position: 'relative',
-              width: 'fit-content',
-              overflow: 'hidden',
-            }}
           >
-            <div className="fire-animation" />
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-teal-400/60 to-transparent animate-flicker" />
             <img
               src="About.jpeg"
               alt="Profile"
@@ -74,44 +67,6 @@ function AboutMe() {
           </div>
         </div>
       </div>
-
-      {/* Fiery Animation Keyframes */}
-      <style jsx>{`
-        .fire-animation {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          border-radius: 50%;
-          background: radial-gradient(circle, rgba(0, 255, 255, 0.6), rgba(0, 255, 255, 0) 70%);
-          animation: flicker 1.5s infinite alternate;
-          box-shadow: 0 0 60px rgba(0, 255, 255, 0.6), 0 0 80px rgba(0, 255, 255, 0.4);
-        }
-
-        @keyframes flicker {
-          0% {
-            opacity: 0.6;
-            transform: scale(1);
-          }
-          25% {
-            opacity: 0.8;
-            transform: scale(1.05);
-          }
-          50% {
-            opacity: 1;
-            transform: scale(1.1);
-          }
-          75% {
-            opacity: 0.8;
-            transform: scale(1.05);
-          }
-          100% {
-            opacity: 0.6;
-            transform: scale(1);
-          }
-        }
-      `}</style>
     </section>
   );
 }

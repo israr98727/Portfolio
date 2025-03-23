@@ -14,7 +14,7 @@ function Sidebar() {
         </ul>
         <button className="mt-5 px-4 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-600">
         <a
-          href="/Resume/ISRAR AHMED RESUME.pdf" // Replace with your CV file's path
+          href="/Resume/Israr Ahmed CV .pdf" // Replace with your CV file's path
           download="Israr_Ahmed_CV.pdf" // Optional: Customize the downloaded file name
           className="mt-5 px-4 py-2 bg-teal-500 text-black font-bold rounded-lg hover:bg-teal-600 text-center"
         >

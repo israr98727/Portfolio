@@ -1,6 +1,6 @@
 import React from "react";
-import { FaReact, FaDatabase, FaNodeJs, FaCloud } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiSupabase } from "react-icons/si";
+import { FaReact, FaDatabase, FaCloud } from "react-icons/fa";
+import { SiTailwindcss, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
 import Slider from "react-slick";
 
 // Import slick-carousel CSS for styling
@@ -71,17 +71,15 @@ function Projects() {
           <div className="p-4">
             <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
               <img
-                src="/Weather-App.png"
-                alt="Weather App Project"
+                src="/Screenshot (85).png"
+                alt="Vista Gym Project"
                 className="rounded-lg mb-4"
               />
               <h3 className="text-2xl font-semibold text-teal-400 mb-2">
-                Weather App
+                Vista Gym
               </h3>
               <p className="text-gray-300 mb-4">
-                A weather application built using React.js, Axios (GET method),
-                and styled with Tailwind CSS. The app fetches and displays live
-                weather data for various locations.
+              A sleek gym website built with React.js and Prismic, showcasing Vista Gym’s services and memberships with a dynamic, responsive design.
               </p>
               <div className="flex gap-2 mb-4">
                 <FaReact className="text-teal-400 text-xl" />
@@ -90,7 +88,7 @@ function Projects() {
               </div>
               {/* Visit Website Button */}
               <a
-                href="https://weather-umber-ten.vercel.app/"
+                href="https://vista-gym.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mt-4 px-4 py-2 bg-teal-400 text-gray-900 font-semibold rounded hover:bg-teal-500 transition-colors duration-200"
@@ -123,7 +121,7 @@ function Projects() {
               </div>
               {/* Visit Website Button */}
               <a
-                href="https://example.com"
+                href="https://hrms-appp.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mt-4 px-4 py-2 bg-teal-400 text-gray-900 font-semibold rounded hover:bg-teal-500 transition-colors duration-200"
@@ -137,24 +135,23 @@ function Projects() {
           <div className="p-4">
             <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
               <img
-                src="/Screenshot (47) copy.png"
+                src="/magma.jpeg"
                 className="rounded-lg mb-4"
               />
               <h3 className="text-2xl font-semibold text-teal-400 mb-2">
-                Portfolio Website
+                Magma Website Clone
               </h3>
               <p className="text-gray-300 mb-4">
-                A personal portfolio website developed using Next.js and
-                Tailwind CSS, deployed on Vercel.
+              An award-winning Magma website clone built using HTML, CSS, JavaScript, and GSAP, featuring smooth UI and animations.
               </p>
               <div className="flex gap-2 mb-4">
-                <SiNextdotjs className="text-gray-300 text-xl" />
-                <SiSupabase className="text-green-400 text-xl" />
-                <SiTailwindcss className="text-blue-400 text-xl" />
+              <SiHtml5 className="text-[#E34F26] text-xl" />
+                <SiCss3 className="text-[#1572B6] text-xl" />
+                <SiJavascript className="text-[#F7DF1E] text-xl" />
               </div>
               {/* Visit Website Button */}
               <a
-                href="https://portfolio-isrars-projects-1b030f4c.vercel.app/"
+                href="https://magma-app.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mt-4 px-4 py-2 bg-teal-400 text-gray-900 font-semibold rounded hover:bg-teal-500 transition-colors duration-200"

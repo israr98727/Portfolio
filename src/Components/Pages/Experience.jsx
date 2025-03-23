@@ -13,7 +13,7 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
-    dateRange: "September 2024 - (Continue..)",
+    dateRange: "September 2024 - January 2025",
     icon: <MdWork />,
   },
   {
